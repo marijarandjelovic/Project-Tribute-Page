@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.container {
+   max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1f26;
+  padding: 7px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+  margin-right: 10px;
+}
+
+.logo-link a {
+  margin: 0;
+}
+
+.logo-link a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.logo-link a:hover {
+  cursor: pointer;
+}
+
+.logo-text p {
+  display: inline;
+  color: #9ca0b1;
+  margin-top: 10px;
+  font-size: 9px;;
+}
+
+.logo-text a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.nav-bar {
+  margin: 0;
+}
+
+.nav-bar ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+.nav-bar li{
+  border: 2px solid #444857;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 7px;
+  color: #ffffff;
+}
+
+.nav-bar a > * {
+  vertical-align: middle;
+}
+
+.like-button svg,
+.fork-button svg,
+.change-view svg {
+  width: 20px;
+  height: 20px;
+  fill: #adafbc;
+}
+
+.like-button:hover,
+.fork-button:hover {
+  background-color: #444857;
+}
+
+.fork-button {
+  display: flex;
+}
+
+.fork-button svg,
+.change-view svg {
+  margin-right: 5px;
+}
+
+.fork-button a,
+.change-view a,
+.log-in-button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.change-view {
+  display: flex;
+  border: none;
+  background: #444857;
+  color: #ffffff;
+}
+
+.change-view:hover, 
+.log-in-button:hover {
+  background-color: #5a5f73;
+}
+
+.sign-up-button {
+  background: #47cf73;
+  border: none;
+  color: #000;
+}
+
+.sign-up-button a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sign-up-button:hover {
+  background-color: #2fb45a;
+}
+
+.log-in-button {
+  background: #444857;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+.main-content {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hero-text {
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+#title {
+  font-size: 40px;
+  color: #333;
+}
+
+#img-div {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  color: #333;
+}
+
+.time-line ul {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.time-line li {
+  color: #333;
+  padding: 10px;
+}
+
+.text-under-time-line {
+  margin: 0 350px 40px 350px;
+  font-style: italic;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.5625rem;
+}
+
+.text-bottom {
+  font-size: 1.17em;
+  color: #333;
+}
+
+#tribute-link {
+  color: #477ca7;
+}
